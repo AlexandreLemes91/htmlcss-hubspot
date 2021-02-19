@@ -18,6 +18,19 @@ a{
     color: rgb(51, 71, 91);
 }
 
+li{ 
+    display: inline-block;
+    list-style: none;
+}
+
+.txt-right{
+    text-align: right;
+}
+
+.vrt-alg{
+    vertical-align: middle;
+}
+
 .vertical-bar::after{
     content: "";
     display: inline-block;
@@ -81,10 +94,7 @@ a{
     transform: translateX(-50%);
     width: 100vw;
     border-bottom: 2px solid rgb(51, 71, 91);
-}
-
-.top-header .container .w-50:last-child{
-    text-align: right;
+    background-color: rgb(244, 249, 254);
 }
 
 .top-header .container .w-50:last-child a:first-child{
@@ -94,3 +104,17 @@ a{
 .top-header .container .w-50:last-child *{
     margin-left: 25px;
 }
+
+/* bot-header ---------------------------------------------------- */
+.bot-header{
+    padding-top: 82px;
+}
+
+.bot-header .container .w-50:last-child li{
+    margin-left: 18px;
+}
+
+.bot-header .container .w-50:last-child i{
+    margin-left: 8px;
+}
+
