@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    color: rgb(51, 71, 91);
+    background-color: rgb(244, 249, 254);
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* utilities-------------------------------------------------- */
+.container{
+    width: 1180px;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.btn{
+
+}
+
+.btn-big{
+
+}
+
+.btn-transparent{
+
+}
