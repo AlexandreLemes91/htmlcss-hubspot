@@ -28,6 +28,11 @@ li{
     list-style: none;
 }
 
+[class="fas fa-check-circle"]{
+    color: rgb(254, 119, 90);
+    margin-right: 16px;
+}
+
 .txt-right{
     text-align: right;
 }
@@ -45,9 +50,24 @@ li{
     margin: 0 15px;
 }
 
+.horizontal-bar::after{
+    content: "";
+    display: inline-block;
+    margin-left: 60px;
+    height: 2px;
+    width: 450px;
+    vertical-align: middle;
+    background-color: rgb(137, 147, 151);
+}
+
 /* div style --------------------------------------------- */
 .relative{
     position: relative;
+}
+
+.high{
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px lightgrey, -1px -1px 3px lightgrey;
 }
 
 .container{
@@ -64,6 +84,14 @@ li{
 
 .float-left{
     float: left;
+}
+
+.w-33{
+    width: calc(100% / 3);
+}
+
+.w-66{
+    width: calc(100% - 100% / 3); 
 }
 
 .w-50{
@@ -98,6 +126,20 @@ li{
     background-color: transparent;
     border: 1px solid rgb(254, 119, 90);
     color: rgb(254, 119, 90);
+}
+
+img{
+    max-height: 100%;
+}
+
+.img-size{
+    height: 100px;
+    margin: auto;
+}
+
+.img-size-big{
+    width: 300px;
+    margin: auto;
 }
 
 /* top-header---------------------------------------------- */
@@ -166,14 +208,6 @@ h1{
     padding: 60px 180px;
 }
 
-.info1 .img-size{
-    width: 300px;
-    margin: auto;
-}
-
-.info1 img{
-    max-width: 100%;
-}
 
 .info1 h2{
     margin-bottom: 44px;
@@ -184,3 +218,26 @@ h1{
     font-size: 14px;
 }
 
+/* info2 ------------------------------------------------------ */
+.info2 .container{
+    padding: 70px 120px 70px 0;
+    margin-bottom: 50px;
+}
+
+.info2 .w-33{
+    text-align: center;
+}
+
+.info2 h3{
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+.info2 h4{
+    font-size: 18px;
+    margin: 25px 0;
+}
+
+.info2 li{
+    margin-right: 23px;
+}
