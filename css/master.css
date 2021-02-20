@@ -23,6 +23,14 @@ p{
     font-size: 14px;
 }
 
+h3{
+    font-size: 20px;
+}
+
+h4{
+    font-size: 18px;
+}
+
 li{ 
     display: inline-block;
     list-style: none;
@@ -60,6 +68,13 @@ li{
     background-color: rgb(137, 147, 151);
 }
 
+.hr{
+    margin: 72px auto 42px;
+    height: 2px;
+    background-color: rgb(137, 147, 151);
+    width: 80%;
+}
+
 /* div style --------------------------------------------- */
 .relative{
     position: relative;
@@ -88,6 +103,10 @@ li{
 
 .w-33{
     width: calc(100% / 3);
+}
+
+.w-33special{
+    width: calc(100% / 3 - 40px);
 }
 
 .w-66{
@@ -128,6 +147,7 @@ li{
     color: rgb(254, 119, 90);
 }
 
+/* img style -------------------------------------------------- */
 img{
     max-height: 100%;
 }
@@ -138,7 +158,7 @@ img{
 }
 
 .img-size-big{
-    width: 300px;
+    height: 300px;
     margin: auto;
 }
 
@@ -224,20 +244,45 @@ h1{
     margin-bottom: 50px;
 }
 
+.info2 .img-size{
+    margin-bottom: 25px;
+}
+
 .info2 .w-33{
     text-align: center;
 }
 
 .info2 h3{
-    font-size: 20px;
     margin-bottom: 45px;
 }
 
 .info2 h4{
-    font-size: 18px;
     margin: 25px 0;
 }
 
 .info2 li{
     margin-right: 23px;
+}
+
+/* info3 ----------------------------------------------------------*/
+.info3 .col{
+    padding: 25px 35px;
+    text-align: center;
+}
+
+.info3 .col:nth-child(2){
+    margin: 0 60px;
+}
+
+.info3 ul{
+    margin: 35px 0 50px;
+}
+
+.info3 .col li{
+    display: block;
+    text-align: left;
+}
+
+.info3 h3{
+    padding: 25px 0 40px 0;
 }
