@@ -35,6 +35,10 @@ h4{
     font-size: 18px;
 }
 
+h6{
+    font-size: 16px;
+}
+
 li{ 
     display: inline-block;
     list-style: none;
@@ -417,3 +421,66 @@ h1{
     bottom: 70px;
     right: 0px;
 }
+
+/* footer------------------------------------------------ */
+footer{
+    background-color: rgb(50, 73, 91);
+    color: rgb(218, 222, 224);
+}
+
+footer a{
+    color: rgb(218, 222, 224);
+}
+
+footer .link-list{
+    padding: 40px 0 20px;
+    border-bottom: 1px solid rgb(218, 222, 224);
+}
+
+footer .link-list .w-25 h6{
+    margin-bottom: 30px;
+}
+
+footer .link-list .w-25 li{
+    display: block;
+}
+
+footer .link-list .w-25 a{
+    line-height: 2.5em;
+}
+
+footer .link-list .w-25 a.btn{
+    line-height: 1;
+    display: inline-grid;
+    margin: 25px 0;
+    background-color: rgb(218, 222, 224);
+    color: rgb(50, 73, 91);
+}
+
+footer .link-list .icon-list li{
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+footer .link-list .language-list{
+    margin-top: 85px;
+    text-align: center;
+}
+
+footer .link-list .language-list a{
+    margin: 0 10px;
+}
+
+footer .legal-ref{
+    padding: 40px 0px;
+}
+
+footer .legal-ref h6{
+    margin-top: 5px;
+}
+
+footer .legal-ref a{
+    margin-left: 25px;
+}
+
