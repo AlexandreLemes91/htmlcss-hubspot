@@ -125,6 +125,11 @@ li{
     box-shadow: 1px 1px 3px lightgrey, -1px -1px 3px lightgrey;
 }
 
+.high:hover{
+    transition: 0.5s;
+    box-shadow: 1px 1px 5px rgb(182, 178, 178), -1px -1px 5px rgb(182, 178, 178);
+}
+
 .container{
     margin: auto;
     height: 100%;
