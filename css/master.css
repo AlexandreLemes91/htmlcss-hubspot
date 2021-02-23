@@ -123,10 +123,10 @@ li{
 .high{
     border-radius: 5px;
     box-shadow: 1px 1px 3px lightgrey, -1px -1px 3px lightgrey;
+    transition: 0.5s;
 }
 
 .high:hover{
-    transition: 0.5s;
     box-shadow: 1px 1px 5px rgb(182, 178, 178), -1px -1px 5px rgb(182, 178, 178);
 }
 
@@ -188,12 +188,12 @@ li{
     background-color: rgb(254, 119, 90);
     color: white;
     text-align: center;
+    transition: 0.1s;
 }
 
 .btn:hover{
     background-color: rgb(252, 131, 104);
     box-shadow: 1px 1px 3px grey;
-    transition: 0.1s;
 }
 
 .btn-big{
@@ -205,12 +205,12 @@ li{
     background-color: transparent;
     border: 1px solid rgb(254, 119, 90);
     color: rgb(254, 119, 90);
+    transition: 0.1s;
 }
 
 .btn-transparent:hover{
     background-color: rgb(250, 252, 252);
     box-shadow: 1px 1px 3px grey;
-    transition: 0.1s;
 }
 
 /* img style -------------------------------------------------- */
