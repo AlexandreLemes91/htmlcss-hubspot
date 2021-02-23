@@ -18,6 +18,21 @@ a{
     color: rgb(51, 71, 91);
 }
 
+a.underline:hover{
+    text-decoration: underline;
+    color: rgb(12, 74, 136);
+}
+
+ul.underline li:hover a{
+    text-decoration: underline;
+    color: rgb(12, 74, 136);
+}
+
+ul.light-underline li:hover a{
+    text-decoration: underline;
+    color: rgb(241, 246, 247);
+}
+
 p{
     line-height: 2em;
     font-size: 14px;
@@ -155,6 +170,12 @@ li{
     background-color: white;
 }
 
+.dropdown-content{
+    display: none;    
+}
+
+
+/* button a ---------------------------------------------- */
 .btn{
     padding: 12px 12px;
     border: 1px solid transparent;
@@ -162,6 +183,12 @@ li{
     background-color: rgb(254, 119, 90);
     color: white;
     text-align: center;
+}
+
+.btn:hover{
+    background-color: rgb(252, 131, 104);
+    box-shadow: 1px 1px 3px grey;
+    transition: 0.1s;
 }
 
 .btn-big{
@@ -173,6 +200,12 @@ li{
     background-color: transparent;
     border: 1px solid rgb(254, 119, 90);
     color: rgb(254, 119, 90);
+}
+
+.btn-transparent:hover{
+    background-color: rgb(250, 252, 252);
+    box-shadow: 1px 1px 3px grey;
+    transition: 0.1s;
 }
 
 /* img style -------------------------------------------------- */
@@ -204,6 +237,7 @@ img{
     width: 100vw;
     border-bottom: 2px solid rgb(51, 71, 91);
     background-color: rgb(244, 249, 254);
+    box-shadow: 0 3px 5px grey;
 }
 
 .top-header .container .w-50:last-child a:first-child{
@@ -212,6 +246,24 @@ img{
 
 .top-header .container .w-50:last-child *{
     margin-left: 25px;
+}
+
+.top-header .dropdown{
+    display: inline-block;
+}
+
+.top-header .dropdown-content li{
+    display: block;    
+    line-height: 1;
+    padding: 1em;
+}
+
+.top-header .dropdown-content li:hover{
+    box-shadow: 1px 1px 3px lightgrey, -1px 0 3px lightgrey;
+}
+
+.top-header .dropdown:hover .dropdown-content{
+    display: block;
 }
 
 /* bot-header ---------------------------------------------------- */
@@ -260,7 +312,6 @@ h1{
     text-align: center;
     padding: 60px 180px;
 }
-
 
 .info1 h2{
     margin-bottom: 44px;
@@ -483,4 +534,3 @@ footer .legal-ref h6{
 footer .legal-ref a{
     margin-left: 25px;
 }
-
